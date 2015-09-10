@@ -5,7 +5,7 @@ $ git config --global user.email <email>
 Initialize git repo
 $ git init
 
-Porject status
+Project status
 $ git status
 
 Add file to stage
@@ -14,7 +14,23 @@ $ git add <filename>
 	*.txt //txt files
 	* //all files
 
-Commit file with message
+Commit file
 $ git commit -m "message"
+	options:
+	-m "message" //add message to commit
+	-a //add files to stage
+
+Check repo history
+$ git log
+	options:
+	--graph //brach graph
+	--oneline
+	-p //changes
+	-1 //number of commits
+	--decorate
+
+Create alias
+$ git config --global alias.lg 'log --graph --oneline --decorate --all'
+
 
 
