@@ -53,4 +53,11 @@ $ git reset <commit>
 Amend last commit
 $ git commit --amend
 
+Create branch
+$ git branch 
 
+Change to branch
+$ git checkout <branchname>
+
+Check current branch
+$ git branch
