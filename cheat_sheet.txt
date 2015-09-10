@@ -40,7 +40,7 @@ $ git diff
 Reset local changes
 $ git checkout -- <filename> //reset local changes on file
 
-Rset the Stage
+Reset the Stage
 $ git reset HEAD
 	options
 	<filename> //unstage file
