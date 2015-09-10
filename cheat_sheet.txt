@@ -62,4 +62,6 @@ $ git checkout <branchname>
 Check current branch
 $ git branch
 
-random stuff...123456
+Merge
+$ git merge <branchname>
+$ git mergetool
