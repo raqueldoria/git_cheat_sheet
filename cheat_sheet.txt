@@ -71,3 +71,6 @@ $ git remote add origin <url>
 
 Push to remote
 $ git push -u origin master 
+
+Pull to remote
+$ git pull origin master
